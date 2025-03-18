@@ -9,6 +9,8 @@ export const HeroCard = ({
     characters,
 }) => {
 const url = `/src/assets/heroes/${id}.jpg`;
+// const url = `/assets/heroes/${id}.jpg`;
+
 
 const navigate = useNavigate()
  const navegatTo = (heroId) =>  {

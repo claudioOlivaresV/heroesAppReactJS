@@ -13,6 +13,8 @@ export const Hero = () => {
     }
     console.log(hero);
     const url = `/src/assets/heroes/${id}.jpg`;
+    // const url = `/assets/heroes/${id}.jpg`;
+
     
     const back =  () => {
         navigate(-1)
